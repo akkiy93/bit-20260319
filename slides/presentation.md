@@ -10,21 +10,32 @@ style: |
     padding: 48px 64px;
   }
   section.title {
-    background: #1F4E79;
+    background: linear-gradient(135deg, #1a3a5c 0%, #2563a8 100%);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 64px 80px;
   }
   section.title h1 {
-    font-size: 44px;
+    font-size: 42px;
     color: white;
     border: none;
-    margin-bottom: 16px;
+    border-left: 8px solid #7EC8E3;
+    padding-left: 20px;
+    margin-bottom: 24px;
+    line-height: 1.4;
+  }
+  section.title h2 {
+    font-size: 24px;
+    color: #BDD7EE;
+    margin-bottom: 32px;
+    padding-left: 28px;
   }
   section.title p {
-    color: #BDD7EE;
-    font-size: 22px;
+    color: #90C8E0;
+    font-size: 20px;
+    padding-left: 28px;
   }
   h1 {
     font-size: 36px;
@@ -93,8 +104,8 @@ style: |
 
 <!-- _class: title -->
 
-# Claude Codeで業務を効率化する
-## 〜「半自動」という考え方〜
+# テスト仕様書に人生を捧げない
+## 〜Claude Codeで業務を半自動化する話〜
 
 2026/03/19　社内勉強会
 
@@ -175,6 +186,29 @@ style: |
 <div class="highlight">
 💡 人間が判断すべき部分だけ人間がやる。それ以外はAIに任せる。
 </div>
+
+---
+
+# 武器①：音声入力を使う
+
+Claude Codeへの指示は**音声入力**が最強
+
+<div class="highlight">
+🎤 キーボードより3〜5倍速く、脳内フィルターなしで思ったことをそのまま伝えられる
+</div>
+
+### 特に重要：最初に「全部ダンプ」する
+
+- ❌ 少ない情報から膨らませる → 自分の意図と違うものができあがる
+- ✅ 思っていることを全部しゃべる → 大量の情報を整理・削る
+
+> 「完璧な一文」を考えながら打つより、<br>「雑でいいから全部言い切る」方が、自分の意図に近いものができる
+
+### 実践のイメージ
+
+1. スマホ・PCのマイクボタンを押す
+2. PLAN.md に向かって「やりたいこと」を全部しゃべる
+3. Claude Codeが整理・構造化してくれる
 
 ---
 
